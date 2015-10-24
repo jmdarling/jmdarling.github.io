@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Jonathan Darling - Generalist Developer</title>
+    <meta name="description"
+          content="The web home of Jonathan Darling - Generalist Developer">
+    <meta name="author" content="Jonathan Darling">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600|Lobster" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+    <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/Chart.js/Chart.min.js"></script>
+    <script type="text/javascript" src="bower_components/lodash/lodash.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <div class="container">
+        <div id="title" class="row">
+            <span>Jonathan</span> <span>Darling</span>
+        </div>
+        <ul id="page-nav-links" class="very-large-text inline-items centered-text row">
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+        <hr/>
+
+        <h2>About</h2>
+        <section id="about" class="about row">
+            <img src="images/profile_picture.png" alt="Jonathan Darling" class="rounded three columns"/>
+            <div class="nine columns">
+                <p class="large-text">A generalist web developer, my primary skills lie in creating powerful yet easy to use user experiences, automated test creation, and development process improvement. I am a strong believer that no development task is finished until it is fully documented and has test coverage. I am eager to learn and passionate about new technologies.</p>
+                <a href="files/jonathan_darling-resume.pdf" class="large-text">Resumé</a>
+            </div>
+            <canvas id="experience-chart" class="twelve columns" height="60"></canvas>
+        </section>
+        <hr/>
+
+        <h2>Projects</h2>
+
+        <!--Populated with projects by JS-->
+        <section id="projects" class="projects">
+
+        </section>
+        <hr/>
+
+        <h2>Contact</h2>
+        <section id="contact" class="centered-text row">
+            <button class="two columns offset-by-three" onclick="window.location.href = 'mailto:jmdarling@me.com';"><i class="fa fa-envelope"></i>  Email</button>
+            <button class="two columns" onclick="window.location.href = 'https://github.com/jmdarling';"><i class="fa fa-github"></i>  Github</button>
+            <button class="two columns" onclick="window.location.href = 'https://www.linkedin.com/in/jonathandarling';"><i class="fa fa-linkedin"></i>  Linkedin</button>
+        </section>
+    </div>
+
+    <!-- End Document
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

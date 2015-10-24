@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Vacation Roulette",
+    "description": "Created in the 24 hour hackathon, \"Hack DFW\", VacationRoulette is a service that allows for one to find a vacation quickly without much planning. This was a collaboration with <a href=\"http://rahatah.me/d/\">Rahat Ahmed</a> and <a href=\"http://zackurben.github.io/\">Zack Urben</a>.",
+    "imageUrl": "images/vacationroulette_banner.png",
+    "sourceLink": "https://github.com/vacationroulette/vacationroulette",
+    "liveLink": "http://vacationroulette.herokuapp.com",
+    "technologies": [
+      "Javascript",
+      "NodeJS"
+    ]
+  },
+  {
+    "name": "EZEDIT",
+    "description": "Created in the 24 hour hackathon, \"Hack UTD\", EZEDIT is a platform as a service designed to make it easy for site builders to allow their end users the ability to update content on their web pages. This was a collaboration with <a href=\"http://rahatah.me/d/\">Rahat Ahmed</a> and <a href=\"http://zackurben.github.io/\">Zack Urben</a>.",
+    "imageUrl": "images/ezedit_banner.png",
+    "sourceLink": "https://github.com/ezedit/ezedit",
+    "liveLink": "https://ezedit.herokuapp.com",
+    "technologies": [
+      "Javascript",
+      "Backbone",
+      "NodeJS"
+    ]
+  }
+]
