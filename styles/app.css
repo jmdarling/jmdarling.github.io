@@ -36,13 +36,14 @@ html {
     padding: 10px;
     text-decoration: none;
 
-    -webkit-transition: background-color .2s;
-    -moz-transition: background-color .2s;
-    -ms-transition: background-color .2s;
-    -o-transition: background-color .2s;
-    transition: background-color .2s;
+    -webkit-transition: background-color, color .3s;
+    -moz-transition: background-color, color .3s;
+    -ms-transition: background-color, color .3s;
+    -o-transition: background-color, color .3s;
+    transition: background-color, color .3s;
 }
 
 .contact-links__link:hover {
-    background-color: #B8B8A6;
+    background-color: #FFFFE7;
+    color: #1C1C1C;
 }
