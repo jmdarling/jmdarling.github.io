@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: #1C1C1C;
     color: #FFFFE7;
@@ -36,14 +40,13 @@ html {
     padding: 10px;
     text-decoration: none;
 
-    -webkit-transition: background-color, color .3s;
-    -moz-transition: background-color, color .3s;
-    -ms-transition: background-color, color .3s;
-    -o-transition: background-color, color .3s;
-    transition: background-color, color .3s;
+    -webkit-transition: border-bottom-width .3s;
+    -moz-transition: border-bottom-width .3s;
+    -ms-transition: border-bottom-width .3s;
+    -o-transition: border-bottom-width .3s;
+    transition: border-bottom-width .3s;
 }
 
 .contact-links__link:hover {
-    background-color: #FFFFE7;
-    color: #1C1C1C;
+    border-bottom-width: 8px;
 }
