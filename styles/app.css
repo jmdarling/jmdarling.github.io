@@ -16,6 +16,13 @@ html {
     width: 500px;
 }
 
+.subheader {
+    display: block;
+    font-size: 30px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
 /* Contact links */
 .contact-links {
     margin: 100px auto 0 auto;
