@@ -1,50 +1,140 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html {
-    background-color: #1C1C1C;
-    color: #FFFFE7;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "acumin-pro";
 }
 
-/* Header */
-.header-image {
-    color: #FFFFE7;
-    display: block;
-    margin: 300px auto 0 auto;
-    width: 800px;
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 10px;
+  }
 }
 
-.subheader {
-    display: block;
-    font-size: 30px;
-    margin: 20px auto 0 auto;
-    text-align: center;
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 8px;
+  }
 }
 
-/* Contact links */
+@media screen and (max-width: 420px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+a {
+  color: #333333;
+  font-family: "acumin-pro";
+  text-decoration: none;
+}
+
+p {
+  font-family: "ff-tisa-web-pro";
+}
+
 .contact-links {
-    margin: 100px auto 0 auto;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.contact-links__link {
-    border: 1px solid #FFFFE7;
-    color: #FFFFE7;
-    font-size: 2rem;
-    margin: 10px;
-    padding: 10px;
-    text-decoration: none;
-
-    -webkit-transition: border-bottom-width .3s;
-    -moz-transition: border-bottom-width .3s;
-    -ms-transition: border-bottom-width .3s;
-    -o-transition: border-bottom-width .3s;
-    transition: border-bottom-width .3s;
+.contact-link {
+  display: inline-block;
+  width: 22rem;
 }
 
-.contact-links__link:hover {
-    border-bottom-width: 8px;
+.copy {
+  font-size: 3rem;
+  letter-spacing: 0.075rem;
+  line-height: 4.5rem;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav__item__link {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 360px) {
+  .nav__item__link {
+    font-size: 4rem;
+  }
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.page {
+  height: 100vh;
+  padding-top: 15vh;
+  width: 100vw;
+}
+
+.page.content-page {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.page.header-page {
+  color: #333333;
+}
+
+.page__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 1200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .page__container {
+    width: 100%;
+  }
+}
+
+.page__header {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+
+.site-header {
+  position: relative;
+  text-align: center;
+  z-index: 5;
+}
+
+.site-header__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
+}
+
+.site-header__header {
+  font-family: "acumin-pro";
+  font-size: 7rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.site-header__header__subheader {
+  font-size: 80%;
+  font-weight: 400;
 }

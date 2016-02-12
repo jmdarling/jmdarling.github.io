@@ -1,6 +1,16 @@
 {
-  "name": "jmdarling.com",
+  "name": "jmdarling.com-4.0",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jmdarling/jmdarling.com-4.0",
+  "authors": [
+    "Jonathan Darling <jmdarling@me.com>"
+  ],
+  "description": "The web home of Jonathan Darling - Frontend Developer",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
   "dependencies": {
-    "normalize.css": "~3.0.3"
+    "reset-css": "^2.0.2011012603"
   }
 }

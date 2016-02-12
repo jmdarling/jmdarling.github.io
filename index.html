@@ -2,48 +2,81 @@
 <html lang="en">
 <head>
 
-    <!-- Basic Page Needs
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Jonathan Darling - Frontend Developer</title>
-    <meta name="description" content="The web home of Jonathan Darling - Frontend Developer">
-    <meta name="author" content="Jonathan Darling">
+  <meta charset="utf-8">
+  <title>Jonathan Darling - Frontend Developer</title>
+  <meta name="description" content="The web home of Jonathan Darling - Frontend Developer">
+  <meta name="author" content="Jonathan Darling">
 
-    <!-- Mobile Specific Metas
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
-    <link rel="stylesheet" href="styles/app.css">
+  <link rel="stylesheet" href="bower_components/reset-css/reset.css"/>
+  <link rel="stylesheet" href="styles/app.css"/>
 
-    <!-- Fonts
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-    <!-- Favicon
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="favicon.png">
+  <script src="https://use.typekit.net/jdx4ael.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
-    <div class="page-header__wrapper">
+  <nav class="navbar">
+    <ul class="nav">
+      <li class="nav__item">
+        <a class="nav__item__link" href="#about-me">About</a>
+      </li>
 
-        <img class="header-image"  src="images/jmdarling-logo-6.svg" alt="Jonathan Darling - FrontEnd Developer"/>
+      <li class="nav__item">
+        <a class="nav__item__link" href="#contact-me">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
+  <div class="page header-page">
+    <div class="site-header">
+      <img class="site-header__logo" src="images/jmdarling-logo.svg" alt="Jonathan Darling"/>
+
+      <h1 class="site-header__header">
+        Jonathan Darling<br/>
+        <span class="site-header__header__subheader">Front-End Developer</span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="page content-page">
+    <div class="page__container">
+      <a id="about-me"></a>
+      <h2 class="page__header">About Me</h2>
+
+      <p class="copy">
+        Currently working as a web application developer at DCS Information Systems in Dallas Texas, my primary skills lie in creating appealing, intuitive interfaces that users will love to use. I am passionate about learning new technologies while embracing the limitations of older technologies as challenges. Design and development are more than a job to me, they are my passions that I take home with me after hours.
+      </p>
+    </div>
+  </div>
+
+  <div class="page content-page">
+    <div class="page__container">
+      <a id="contact-me"></a>
+      <h2 class="page__header">Contact Me</h2>
         <div class="contact-links">
-            <a class="contact-links__link" href="https://github.com/jmdarling">github</a>
-            <a class="contact-links__link" href="https://www.linkedin.com/in/jonathandarling">linkedin</a>
-            <a class="contact-links__link" href="https://twitter.com/coltex_">twitter</a>
+          <a class="contact-link" href="https://github.com/jmdarling">
+            <img src="images/github.svg" alt="github"/>
+          </a>
+
+          <a class="contact-link" href="https://www.linkedin.com/in/jonathandarling">
+            <img src="images/linkedin.svg" alt="linkedin"/>
+          </a>
+
+          <a class="contact-link" href="https://twitter.com/coltex_">
+            <img src="images/twitter.svg" alt="twitter"/>
+          </a>
         </div>
     </div>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  </div>
 
-        ga('create', 'UA-69453869-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-69453869-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>
