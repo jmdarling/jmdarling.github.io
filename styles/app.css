@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "acumin-pro";
 }
 
+html {
+  font-size: 12px;
+}
+
 @media screen and (max-width: 1000px) {
   html {
     font-size: 10px;
