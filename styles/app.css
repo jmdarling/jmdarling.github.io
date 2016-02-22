@@ -87,7 +87,7 @@ p {
 .page {
   height: 100vh;
   padding-top: 15vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .page.content-page {
