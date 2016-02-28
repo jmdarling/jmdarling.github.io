@@ -3,7 +3,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "acumin-pro";
+  font-family: "acumin-pro", "Helvetica Neue", Helvetica, Arial;
 }
 
 html {
@@ -30,7 +30,7 @@ html {
 
 a {
   color: #333333;
-  font-family: "acumin-pro";
+  font-family: "acumin-pro", "Helvetica Neue", Helvetica, Arial;
   text-decoration: none;
 }
 
@@ -137,7 +137,7 @@ p {
 }
 
 .site-header__header {
-  font-family: "acumin-pro";
+  font-family: "acumin-pro", "Helvetica Neue", Helvetica, Arial;
   font-size: 7rem;
   font-style: normal;
   font-weight: 600;
