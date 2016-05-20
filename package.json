@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jmdarling/jmdarling.github.io/issues"
   },
-  "homepage": "https://github.com/jmdarling/jmdarling.github.io#readme"
+  "homepage": "https://github.com/jmdarling/jmdarling.github.io#readme",
+  "dependencies": {
+    "normalize.css": "^4.1.1"
+  }
 }
