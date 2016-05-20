@@ -1,0 +1,19 @@
+{
+  "name": "jmdarling.github.io",
+  "version": "1.0.0",
+  "description": "The web home of Jonathan Darling - Frontend Developer",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmdarling/jmdarling.github.io.git"
+  },
+  "author": "jmdarling@me.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmdarling/jmdarling.github.io/issues"
+  },
+  "homepage": "https://github.com/jmdarling/jmdarling.github.io#readme"
+}
