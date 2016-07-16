@@ -1,0 +1,24 @@
+{
+  "name": "jmdarling.com",
+  "version": "1.0.0",
+  "description": "The personal web home of Jonathan Darling.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmdarling/jmdarling.github.io.git"
+  },
+  "author": "Jonathan Darling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmdarling/jmdarling.github.io/issues"
+  },
+  "homepage": "https://github.com/jmdarling/jmdarling.github.io#readme",
+  "dependencies": {
+    "normalize.css": "^4.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

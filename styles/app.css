@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  background: #3f3faa;
+  overflow: hidden; }
+  @media (max-width: 450px) {
+    html {
+      font-size: .6em; } }
+
+body {
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif; }
+
+@keyframes drop {
+  from {
+    transform: translateY(-2000px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes wobble {
+  33% {
+    transform: rotate(5deg); }
+  66% {
+    transform: rotate -10deg; }
+  100% {
+    transform: rotate 0; } }
+
+* {
+  box-sizing: border-box; }
+
+.body-copy {
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  line-height: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  max-width: 800px;
+  position: relative;
+  text-align: center;
+  z-index: 100; }
+
+.contact-links {
+  margin-top: 5%;
+  position: relative;
+  text-align: center;
+  z-index: 100; }
+
+.contact-links__link {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.contact-links__link:hover .contact-links__link__image {
+  animation: wobble .4s infinite; }
+
+.contact-links__link__image {
+  width: 150px; }
+
+.header {
+  margin-top: 2%;
+  position: relative;
+  z-index: 100; }
+
+.header__text {
+  font-family: "Heebo" sans-serif;
+  font-size: 6rem;
+  text-align: center; }
+
+.text-link {
+  color: #FFFFFF;
+  transition: background-color .2s; }
+
+.text-link:hover {
+  background-color: #333333; }
+
+.rays {
+  box-shadow: 554px 886px #d43dd8 , 278px 1928px #d43dd8 , 241px 1365px #c9c23a , 1640px 1169px #c9c23a , 356px 1118px #d8d54e , 1477px 726px #7cce55 , 1989px 1598px #29cec6 , 1894px 171px #d8d54e , 1331px 849px #29cec6 , 1080px 195px #d8d54e , 533px 1824px #36e0dc , 1348px 333px #69ba3e , 1399px 1557px #29cec6 , 1775px 279px #7cce55 , 813px 1736px #d43dd8 , 389px 1983px #29cec6 , 414px 1896px #36e0dc , 1892px 609px #d8d54e , 237px 1453px #7cce55 , 1179px 156px #36e0dc , 732px 189px #d8d54e , 344px 969px #d155d8 , 1164px 471px #7cce55 , 651px 459px #d8d54e , 614px 1181px #c9c23a , 515px 1905px #29cec6 , 473px 1500px #7cce55 , 413px 1452px #d8d54e , 1443px 1742px #69ba3e , 1354px 1894px #7cce55 , 77px 1465px #c9c23a , 1270px 495px #d8d54e , 549px 1845px #36e0dc , 93px 1082px #c9c23a , 1579px 1576px #d43dd8 , 1456px 1349px #d43dd8 , 107px 1673px #29cec6 , 238px 1044px #d8d54e , 1917px 736px #36e0dc , 1159px 1628px #29cec6 , 1346px 954px #d8d54e , 1736px 1434px #d8d54e , 1156px 755px #d155d8 , 605px 205px #d155d8 , 1522px 574px #7cce55 , 1183px 1474px #36e0dc , 622px 1193px #c9c23a , 510px 1939px #d43dd8 , 1265px 1431px #69ba3e , 778px 434px #c9c23a;
+  animation: drop 120s linear infinite;
+  width: 2px;
+  height: 100px;
+  background: transparent; }
